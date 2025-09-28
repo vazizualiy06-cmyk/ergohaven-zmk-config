@@ -26,10 +26,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans     &mo 6     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &mkp LCLK  &mkp MB3  &mkp RCLK  &mo 5   &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                            &trans  &trans     &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT                    &trans  &trans     &mo 6     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LCTRL                         &trans  &mkp LCLK  &mkp MB3  &mkp RCLK  &mo 5   &trans
+                &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans     &trans    &trans
             >;
 
             display-name = "Mouse";
