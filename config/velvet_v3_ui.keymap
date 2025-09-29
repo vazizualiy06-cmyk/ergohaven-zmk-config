@@ -27,9 +27,9 @@
         mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                           &trans  &trans     &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT                   &trans  &trans     &mo 7     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT                   &trans  &trans     &trans    &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &kp LCTRL                        &trans  &mkp LCLK  &mkp MB3  &mkp RCLK  &mo 6   &mo 7
-                &trans  &trans  &trans  &trans          &trans    &to 2  &to 1   &trans     &trans    &trans
+                &trans  &trans  &trans  &trans          &trans    &to 2  &mo 1   &trans     &trans    &trans
             >;
 
             display-name = "Mouse";
@@ -40,7 +40,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp BACKSPACE  &kp N1  &kp N2  &kp N3     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT       &kp N4  &kp N5  &kp N6     &kp MINUS             &kp PLUS
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp RIGHT      &kp N7  &kp N8  &kp N9     &kp ASTERISK          &kp SLASH
-                &trans  &trans  &trans  &trans  &trans    &trans  &to 0          &trans  &kp N0  &kp ENTER
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans  &kp N0  &kp ENTER
             >;
 
             display-name = "User3";
