@@ -26,10 +26,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans  &trans     &trans         &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT                   &trans  &kp ENTER  &kp BACKSPACE  &kp ESC    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LCTRL                        &trans  &mkp LCLK  &mkp MB3       &mkp RCLK  &trans  &trans
-                &trans  &trans  &trans  &trans          &trans    &to 2  &mo 1   &trans     &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans     &trans         &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT                  &trans  &kp ENTER  &kp BACKSPACE  &kp ESC    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LCTRL                       &trans  &mkp LCLK  &mkp MB3       &mkp RCLK  &mo 5   &mo 6
+                &trans  &trans  &trans  &trans          &to 2    &mo 7  &mo 1   &trans     &trans         &trans
             >;
 
             display-name = "Mouse";
@@ -77,6 +77,33 @@
             >;
 
             display-name = "Symbols";
+        };
+
+        skroll {
+            bindings = <
+&none  &none  &none  &none  &none  &none                  &none  &none           &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none                  &none  &none           &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none                  &none  &none           &none  &none  &none  &none
+              &none  &none  &none  &none  &none    &none  &none  &msc MOVE_Y(5)  &none  &none
+            >;
+        };
+
+        sniper {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        command {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
