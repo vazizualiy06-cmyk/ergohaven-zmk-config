@@ -81,10 +81,10 @@
 
         skroll {
             bindings = <
-&none  &none  &none  &none  &none  &none                  &none  &none           &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                  &none  &none           &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                  &none  &none           &none  &none  &none  &none
-              &none  &none  &none  &none  &none    &none  &none  &msc MOVE_Y(5)  &none  &none
+&none  &none  &none  &none  &none  &none                  &none  &none   &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none                  &none  &none   &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none                  &none  &none   &none  &none  &none  &none
+              &none  &none  &none  &none  &none    &none  &none  &trans  &none  &none
             >;
         };
 
