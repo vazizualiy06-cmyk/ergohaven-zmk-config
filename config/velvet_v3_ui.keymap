@@ -29,7 +29,7 @@
 &trans  &trans  &trans  &trans  &trans        &kp LS(TAB)                     &trans     &trans     &kp BACKSPACE  &trans     &trans  &kp DELETE
 &trans  &trans  &trans  &trans  &trans        &kp LEFT_SHIFT                  &trans     &kp ENTER  &mkp MB3       &kp ESC    &trans  &trans
 &trans  &trans  &trans  &trans  &kp LEFT_ALT  &kp LCTRL                       &kp LC(Z)  &mkp LCLK  &mo 5          &mkp RCLK  &mo 6   &trans
-                &trans  &trans  &mo 8         &mo 3           &to 2    &mo 7  &mo 1      &trans     &kp LC(C)      &kp LC(V)
+                &trans  &trans  &to 8         &mo 3           &to 2    &mo 7  &mo 1      &trans     &kp LC(C)      &kp LC(V)
             >;
 
             display-name = "Mouse";
@@ -111,7 +111,7 @@
 &trans          &kp N1        &kp Q   &kp W   &trans  &trans                       &trans  &trans     &trans  &trans     &trans  &trans
 &kp LEFT_SHIFT  &kp N2        &kp A   &kp S   &kp D   &trans                       &trans  &trans     &trans  &trans     &trans  &trans
 &kp LCTRL       &kp NUMBER_3  &trans  &trans  &kp C   &trans                       &trans  &mkp LCLK  &trans  &mkp RCLK  &mo 6   &trans
-                              &trans  &trans  &trans  &kp X   &kp SPACE    &trans  &trans  &trans     &trans  &trans
+                              &trans  &trans  &trans  &kp X   &kp SPACE    &trans  &to 0   &trans     &trans  &trans
             >;
         };
     };
