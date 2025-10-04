@@ -108,9 +108,9 @@
 
         Game {
             bindings = <
-&trans          &kp N1        &kp Q   &kp W   &trans  &trans                       &trans  &trans     &trans  &trans     &trans  &trans
+&trans          &kp N1        &kp Q   &kp W   &kp E   &kp R                        &trans  &trans     &trans  &trans     &trans  &trans
 &kp LEFT_SHIFT  &kp N2        &kp A   &kp S   &kp D   &trans                       &trans  &trans     &trans  &trans     &trans  &trans
-&kp LCTRL       &kp NUMBER_3  &trans  &trans  &kp C   &trans                       &trans  &mkp LCLK  &trans  &mkp RCLK  &mo 6   &trans
+&kp LCTRL       &kp NUMBER_3  &trans  &trans  &kp C   &kp B                        &trans  &mkp LCLK  &trans  &mkp RCLK  &mo 6   &trans
                               &trans  &kp V   &trans  &kp X   &kp SPACE    &trans  &to 0   &trans     &trans  &trans
             >;
         };
