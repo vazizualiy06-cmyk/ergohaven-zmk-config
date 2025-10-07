@@ -26,7 +26,7 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans        &kp LS(TAB)                     &trans     &trans     &kp BACKSPACE  &trans     &trans  &kp DELETE
+&trans  &trans  &trans  &trans  &trans        &kp TAB                         &trans     &trans     &kp BACKSPACE  &trans     &trans  &kp DELETE
 &trans  &trans  &trans  &trans  &trans        &kp LEFT_SHIFT                  &trans     &kp ENTER  &mkp MB3       &kp ESC    &trans  &trans
 &trans  &trans  &trans  &trans  &kp LEFT_ALT  &kp LCTRL                       &kp LC(Z)  &mkp LCLK  &mo 5          &mkp RCLK  &mo 6   &trans
                 &trans  &trans  &to 8         &mo 3           &to 2    &mo 7  &mo 1      &trans     &kp LC(C)      &kp LC(V)
@@ -37,10 +37,10 @@
 
         Calculate {
             bindings = <
-&trans  &trans  &trans  &trans  &kp COLON  &kp LS(SEMI)                    &kp BACKSPACE   &kp N1  &kp N2  &kp N3     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans  &trans  &trans  &trans  &kp QMARK  &kp COMMA                       &kp LEFT_SHIFT  &kp N4  &kp N5  &kp N6     &kp MINUS             &kp PLUS
-&trans  &trans  &trans  &trans  &kp EXCL   &kp LS(DOT)                     &kp LCTRL       &kp N7  &kp N8  &kp N9     &kp ASTERISK          &kp SLASH
-                &trans  &trans  &trans     &trans        &trans    &trans  &trans          &trans  &kp N0  &kp ENTER
+&trans  &trans  &trans  &trans  &kp COLON  &kp SEMI                     &kp BACKSPACE   &kp N7  &kp N8  &kp N9     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans  &trans  &trans  &trans  &kp QMARK  &kp COMMA                    &kp LEFT_SHIFT  &kp N4  &kp N5  &kp N6     &kp MINUS             &kp PLUS
+&trans  &trans  &trans  &trans  &kp EXCL   &kp DOT                      &kp LCTRL       &kp N1  &kp N2  &kp N3     &kp ASTERISK          &kp SLASH
+                &trans  &trans  &trans     &trans     &trans    &trans  &trans          &trans  &kp N0  &kp ENTER
             >;
 
             display-name = "User3";
