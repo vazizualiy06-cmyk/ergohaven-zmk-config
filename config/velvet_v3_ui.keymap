@@ -99,10 +99,10 @@
 
         command {
             bindings = <
-&trans  &trans  &trans  &trans  &trans        &kp TAB                           &kp Q      &kp E     &kp R     &kp HASH  &kp DOLLAR  &kp AT
-&trans  &trans  &trans  &trans  &trans        &kp LEFT_SHIFT                    &kp A      &kp SEMI  &kp STAR  &kp H     &kp EXCL    &kp L
-&trans  &trans  &trans  &trans  &kp LEFT_ALT  &kp LCTRL                         &kp CARET  &kp N     &kp M     &kp O     &kp P       &kp Y
-                &trans  &trans  &trans        &trans          &trans    &trans  &kp QMARK  &trans    &kp F     &kp J
+&trans  &trans  &trans  &trans  &trans        &kp TAB                           &kp Q      &kp E     &kp R      &kp SQT  &kp DOT           &kp RIGHT_BRACKET
+&trans  &trans  &trans  &trans  &trans        &kp LEFT_SHIFT                    &kp A      &kp SEMI  &kp EQUAL  &kp H    &kp LEFT_BRACKET  &kp L
+&trans  &trans  &trans  &trans  &kp LEFT_ALT  &kp LCTRL                         &kp COMMA  &kp N     &kp M      &kp O    &kp P             &kp Y
+                &trans  &trans  &trans        &trans          &trans    &trans  &kp MINUS  &trans    &kp F      &kp J
             >;
         };
 
