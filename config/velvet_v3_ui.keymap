@@ -114,6 +114,24 @@
                               &trans  &kp V   &trans  &kp X   &kp SPACE    &mo 3  &to 0   &trans     &trans  &trans
             >;
         };
+
+        LettersLeft {
+            bindings = <
+&trans  &kp Q  &kp W   &kp E   &kp R   &kp T                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp A  &kp S   &kp D   &kp F   &kp G                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp Z  &kp X   &kp C   &kp V   &kp B                     &trans  &trans  &trans  &trans  &trans  &trans
+               &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        LettersRight {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
 
